@@ -37,7 +37,7 @@ ul {
 .principal {
     background-color: white;
     margin: 0 300px 0px 300px;
-    height: 140vh;
+    height: 120vh;
     display: grid;
     grid-template-columns: 1fr 65%;
 }
@@ -47,8 +47,8 @@ ul {
 .foto {
     margin: 15px 50px 0px 70px;
     width: 130px;
-    height: 130px;
-    border-radius: 35%;
+    height: 145px;
+    border-radius: 50%;
 }
 .contato{
     color: white;
