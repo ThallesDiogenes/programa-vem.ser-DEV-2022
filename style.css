@@ -17,6 +17,9 @@ ul {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
+a {
+    text-decoration: none;
+}
 .autor {
     color: white;
     text-transform: uppercase;
@@ -52,6 +55,9 @@ ul {
 }
 .contato{
     color: white;
+    background-color: #858a92;
+    padding-top: 3px;
+    padding-bottom: 3px;
     text-align: center;
     text-transform: uppercase;
 }
