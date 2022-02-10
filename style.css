@@ -1,25 +1,15 @@
 body {
     background-color: lightblue;
 }
-h3 {
-    font-family: Andale Mono, monospace;
+
+.titulo {
+    background-color: #858a92;
+    margin: 0 300px 0 300px;
+    height: 10vh;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
-hr {
-    width: 460px;
-    margin-right: 50px;
-}
-
-ul {
-    text-align: justify;
-    line-height: 25px;
-    margin-right: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-}
-a {
-    text-decoration: none;
-}
 .autor {
     color: white;
     text-transform: uppercase;
@@ -29,30 +19,30 @@ a {
     font-family: Andale Mono, monospace;
     margin-top: 15px;
 }
-.titulo {
-    background-color: #858a92;
-    margin: 0 300px 0 300px;
-    height: 10vh;
-    display: grid;
-    grid-template-columns: 1fr;
 
-}
 .principal {
     background-color: white;
     margin: 0 300px 0px 300px;
-    height: 130vh;
+    height: auto;
     display: grid;
     grid-template-columns: 1fr 65%;
 }
+
 .esquerda {
     background-color: #355586;
 }
+
 .foto {
     margin: 20px 50px 0px 65px;
     width: 130px;
     height: 145px;
     border-radius: 50%;
 }
+
+h3 {
+    font-family: Andale Mono, monospace;
+}
+
 .contato{
     color: white;
     background-color: #858a92;
@@ -62,24 +52,43 @@ a {
     text-transform: uppercase;
 }
 
-.material-icons.icone_branco{
-    color: white;
-}
 .informacao{
     display: flex;
     flex-direction: row;
-    margin-left: 8px;
+    margin-left: 20px;
     margin-right: 5px;
     margin-bottom: 15px;
     width: 100%;
     align-items: center;
 }
+
+.material-icons.icone_branco{
+    color: white;
+}
+
 .descricao{
     font-size: 12px;
     color: white;
     font-weight: 600;
     font-family: Andale Mono, monospace;
-    margin-left: 10px;
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.informacao .descricao:hover a {
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+.descricao-objetivo {
+    text-align: justify;
+    margin: 5px 25px 10px 10px; 
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
 }
 
 .profissao {
@@ -88,23 +97,28 @@ a {
     text-transform: uppercase;
     font-size: 17px;
     margin: 5px 5px 10px 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     background-color: #355586;
+    border-radius: 5px;
 }
+
 .topico {
     text-transform: uppercase;
     margin-top: 10px;
     margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
 }
-.descricao-objetivo {
+
+ul {
     text-align: justify;
-    margin: 5px 25px 10px 10px; 
     line-height: 25px;
+    margin-right: 25px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    list-style-type:circle;
 }
+
 .ponto {
     margin-bottom: 15px;
 }
