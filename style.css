@@ -79,8 +79,9 @@ a {
 }
 
 .informacao .descricao:hover a {
-    text-decoration: underline;
     font-size: 15px;
+    border: 2px solid white;
+    padding: 10px;
 }
 
 .descricao-objetivo {
