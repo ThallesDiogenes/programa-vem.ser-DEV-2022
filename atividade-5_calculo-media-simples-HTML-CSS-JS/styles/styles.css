@@ -1,0 +1,157 @@
+html {
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-image: url(../img/foto.png);
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+
+.cabeçalho {
+    background-color: blueviolet;
+    padding: 1rem;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.titulo-principal {
+    padding: 1rem;
+    position: absolute;
+    top: 2.5rem;
+    left: 27rem;
+    font-size: 2.5rem;
+    font-family: 'Charmonman', cursive;
+}
+
+.container-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 4.55rem 30rem;
+    padding: 2rem 0;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(164, 168, 164, 0.7);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 300px;
+}
+
+label {
+    padding: 0.9rem 0 0.1rem;
+    font-weight: bold;
+}
+
+input {
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.nota {
+    padding: 0.4rem 0;
+}
+
+.btn-submeter {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 3rem 0;
+    padding: 0.6rem 0;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn-submeter:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+.btn-submeter:active {
+    transform: scale(1);
+    transition: 0.3s ease-in-out;
+}
+
+.linha {
+    line-height: 20px;
+    font-size: 14px;
+    width: 35%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s ease-in-out;
+    background-color: rgba(255, 250, 240, 0.7);
+    border-radius: 5px;
+    position: absolute;
+    top: 520px;
+    right: 430px;
+}
+
+.linha:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+
+.btnExcluir {
+    border: none;
+    background-color: transparent;
+    margin-right: 40px;
+    outline: none;
+    cursor: pointer;
+}
+
+.label {
+    justify-content: start;
+    width: 80%;
+    word-wrap: break-word;
+}
+
+.label label {
+    display: block;
+    width: 100%;
+    padding: 14px 0px 16px 0px;
+}
+
+input[type="checkbox"] {
+    margin: 0 15px;
+    display: none;
+}
+
+ion-icon {
+    transform: scale(1.7);
+    border-radius: 50%;
+    color: lightcoral;
+}
+
+ion-icon:hover {
+    transform: scale(2.1);
+    background-color: lightcoral;
+    color: white;
+    border-radius: 50%;
+}
+
+ion-icon:active {
+    transform: scale(1.9);
+    background-color: lightcoral;
+    color: white;
+    border-radius: 50%;
+}
+
+.rodape {
+    background-color: blueviolet;
+    height: 47px;
+}
